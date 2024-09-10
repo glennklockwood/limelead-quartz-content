@@ -7,13 +7,15 @@ aliases:
   - warp
   - wavefront
   - GCD
+  - GPC
 ---
 Here's a decoder ring for all the proprietary terms for GPU components. Not all are direct equivalents due to architectural differences though.
 
 | NVIDIA                        | AMD                           | Intel                        |
 | ----------------------------- | ----------------------------- | ---------------------------- |
 | SM                            | CU                            | Xe Vector Engine, fka EU[^3] |
-| TPC                           | XCD, fka GCD,                 | Xe Core, fka subslice[^3]    |
+| TPC                           | XCD, fka GCD                  | Xe Core, fka subslice[^3]    |
+| GPC                           | ?                             | ?                            |
 | [[tensor cores\|Tensor core]] | [[tensor cores\|Matrix core]] | Xe Matrix Engine             |
 | Thread                        | Work item/thread              | Thread                       |
 | Block                         | Workgroup                     |                              |
