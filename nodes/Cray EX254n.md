@@ -11,7 +11,7 @@ Each blade has two nodes, and each node has
 	- 1 Hopper H100 GPU
 - 128 GB LPDDR5X DRAM
 	- Although Grace supports "up to" 480 GB [[LPDDR5 RAS|with ECC]], the HPE spec sheet only offers a 128 GB option.[^datasheet]
-	- Similarly, [[Alps]]'s nodes only have 128 GB (or 120 GB[^14090] with ECC).
+	- Similarly, [[Alps]]'s nodes only have 128 GB (or 120 GB[^14090] with [[ECC]]).
 	- It appears that this node has significantly less than the maximum LPDDR5 than Grace supports, probably reflecting an optimal cost/performance ratio for HPC applications.
 - 4x [[Slingshot|Slingshot-11]] NICs[^sth]
 

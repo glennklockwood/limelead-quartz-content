@@ -11,11 +11,11 @@ The HBM is clocked at 1.0 GHz, and because HBM is DDR, there are two transfers p
 
 $2 \times 10^{9} \text{ transfers/sec} \times 128 \text{ bytes/transfer} = 256 \times 10^9 \text{ bytes/s} = 256 \text { GB/s}$
 
-Memory channels are the interfaces with which memory controllers can talk to memory, and a single memory chip (die) may implement one or more channels.[^lpddr5]
+[[DRAM architecture|Memory channels]] are the interfaces with which memory controllers can talk to memory, and a single memory chip (die) may implement one or more channels.[^lpddr5]
 
 ## DDR
 
-DDR5 has 64-bit channels, but unlike previous generations, implements these as two independent 32-bit sub-channels. RDIMMs have an additional 8 bits for ECC.[^ddr5]
+DDR5 has 64-bit channels, but unlike previous generations, implements these as two independent 32-bit sub-channels. RDIMMs have an additional 8 bits for [[ECC]].[^ddr5]
 
 ## GDDR
 
