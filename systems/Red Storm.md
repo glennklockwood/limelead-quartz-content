@@ -1,7 +1,8 @@
 ---
 title: Sandia Red Storm
 tags:
-  - system/usa/doe/nnsa
+  - usa/doe/nnsa
+  - system
 aliases:
   - SeaStar
 ---

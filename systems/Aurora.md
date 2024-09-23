@@ -1,6 +1,7 @@
 ---
 tags:
-  - "#system/usa/doe/ascr"
+  - usa/doe/ascr
+  - system
 title: ALCF Aurora
 ---
 Aurora is the [[Cray EX]] supercomputer operated by the Argonne Leadership Computing Facility (ALCF). It achieved a max [[HPL]] score of 1.012 EFLOPS using 87% of the system in June 2024[^2] after debuting six months earlier with 585.3 PFLOPS.

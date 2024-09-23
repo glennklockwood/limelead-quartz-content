@@ -1,6 +1,7 @@
 ---
 tags:
-  - system/usa/doe/ascr
+  - usa/doe/ascr
+  - system
 aliases:
   - NERSC-9
 title: NERSC Perlmutter

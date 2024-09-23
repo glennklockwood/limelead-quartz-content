@@ -1,9 +1,12 @@
 ---
 title: TACC Horizon
 tags:
-  - system/usa/nsf
+  - usa/nsf
+  - system
 ---
-Horizon is TACC's leadership supercomputer being sponsored by the NSF as the follow-on to Blue Waters. As of 2024-08-21, its specs are all secret:[^1]
+Horizon is TACC's leadership supercomputer being sponsored by the NSF as the follow-on to Blue Waters. It is the supercomputing foundation for NSF [[LCCF]].
+
+As of 2024-08-21, its specs are all secret:[^1]
 
 ![[TACC Horizon specs from 2024-08-21.jpg]]
 

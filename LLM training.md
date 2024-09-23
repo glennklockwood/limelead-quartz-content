@@ -64,6 +64,12 @@ There are ways to perform asynchronous data-parallel tranining where not all rep
 
 Tensor parallelism is overwhelmingly bandwidth-dominant; when training LLMs using 3D parallelism (tensor-, pipeline-, and data-parallelism), over 75% of all bytes transferred between processors is for tensor parallelism, and this fraction increases with larger models.[^railonly]
 
+## Compute
+
+Although GPUs support 8-bit (and lower) precision, the state of the art in 2024 is to train models using 16-bit precision. For example, Llama 3.1 405b was trained using bfloat16 and achieved [[MFU]] of 38-41% even though the [[H100#Performance|H100 GPUs used support FP8]].[^llama3]
+
+[^llama3]: [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783)
+
 ## Memory
 
 The [ZeRO-DP paper][] (2020) states that a trillion-parameter model using a stateful optimizer (like Adam) requires 16 TiB of GPU memory at 16-bit precision.  This implies around 16 bytes (128 bits) per parameter with 8&times; that for other quantities like optimizer states and gradients. This paper also enumerates what contributes to this 8&times; and breaks this down using Adam as an example. In brief, the 16 bytes (128 bits) per parameter is composed of the following:

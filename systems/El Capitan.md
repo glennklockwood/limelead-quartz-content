@@ -1,7 +1,8 @@
 ---
 title: LLNL El Capitan
 tags:
-  - "#system/usa/doe/nnsa"
+  - usa/doe/nnsa
+  - system
 ---
 El Capitan is LLNL's upcoming [[Cray EX255a]]/[[MI300A]] supercomputer.
 
