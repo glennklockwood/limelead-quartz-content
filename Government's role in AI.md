@@ -2,11 +2,11 @@ This is a messy collection of notes I've been maintaining with an eventual goal 
 
 ## Infrastructure
 
-The [[doe]] Secretary of Energy Advisory Board (SEAB) created a report on [Recommendations on Powering Artificial Intelligence and Data Center Infrastructure](https://www.energy.gov/sites/default/files/2024-08/Powering%20AI%20and%20Data%20Center%20Infrastructure%20Recommendations%20July%202024.pdf).
+The [[DOE]] Secretary of Energy Advisory Board (SEAB) created a report on [Recommendations on Powering Artificial Intelligence and Data Center Infrastructure](https://www.energy.gov/sites/default/files/2024-08/Powering%20AI%20and%20Data%20Center%20Infrastructure%20Recommendations%20July%202024.pdf).
 
 ## Opinions of others
 
-Matt Hourihan posted a call to action which struck a nerve with me: [Why America Must Invest in [[doe]] Labs To Win the AI Race Against China | RealClearDefense](https://www.realcleardefense.com/articles/2024/03/14/why_america_must_invest_in_doe_labs_to_win_the_ai_race_against_china_1018211.html). I personally don’t care about the CCP stuff (yet); more power to them from the standpoint of innovation. But my perspective is admittedly myopic in this area.
+Matt Hourihan posted a call to action which struck a nerve with me: [Why America Must Invest in DOE Labs To Win the AI Race Against China | RealClearDefense](https://www.realcleardefense.com/articles/2024/03/14/why_america_must_invest_in_doe_labs_to_win_the_ai_race_against_china_1018211.html). I personally don’t care about the CCP stuff (yet); more power to them from the standpoint of innovation. But my perspective is admittedly myopic in this area.
 
 Bruce Schneier called for government-created foundation models ([Essays: Public AI as an Alternative to Corporate AI - Schneier on Security](https://www.schneier.com/essays/archives/2024/03/public-ai-as-an-alternative-to-corporate-ai.html)). Ideally sure, but practical hurdles make this untenable.
 
@@ -41,11 +41,16 @@ The ship has sailed on the government playing a significant role in AI leadershi
 - High precision arithmetic (FP64)
 - Fortran
 
+There are also elements of AI in which the government has unique interest:
+
+- Trustworthiness, safety, and security
+- AI for science
+
 ## How can government do better?
 
 How can the government move forward?
 
-1. **Give up**: Build staffing plans that assume constant turnover like the postdoc programs associated with [[doe]]'s big HPC procurements (NESAP, CAAR, and ESP) as people graduate from government to industry.
+1. **Give up**: Build staffing plans that assume constant turnover like the postdoc programs associated with [[DOE]]'s big HPC procurements (NESAP, CAAR, and ESP) as people graduate from government to industry.
 2. **Lean *hard* into the right incentives**: Sabbaticals, joint appointments, and other ways to raise the ceiling. Work-life balance is a bad motivator; highly motivated people are going to work way too much regardless of where they work, and many big tech companies still offer work-life balance.
 
 [Mobilizing Tech Talent: Hiring Technologists to Power Better Government](https://ourpublicservice.org/wp-content/uploads/2018/09/Mobilizing_Tech_Talent-2018.09.26.pdf) has a “Seven Strategies to Strengthen the Federal Government’s Technical Workforce” which is quite good at its surface:

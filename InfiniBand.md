@@ -18,6 +18,10 @@ Although InfiniBand NICs (called host channel adapters, or HCAs) and switches us
 
 Just as NVIDIA GPUs have become the de facto standard processor for large-scale [[LLM training]], InfiniBand has become the de facto standard network technology in AI clusters.
 
+## Routing
+
+**Up-down routing** applies to fat trees and only lets traffic change directions once. For a three-layer tree with IB0, IB1, and IB2 switches, traffic cannot bounce between IB1 and IB2 to work around bad paths; once traffic makes it up to the top IB2 layer, it turns around and must only go down to its destination.
+
 ## Scalability challenges
 
 ### Address space limitations

@@ -3,7 +3,10 @@ title: Electricity and power for HPC
 aliases:
   - nuclear
   - electricity
+  - nuclear power
 ---
+![[nuclear power station.png|360]]
+
 ## Scale
 
 - "One gigawatt is enough energy to power about 750,000 homes."[^wsj2]
@@ -28,6 +31,7 @@ aliases:
 
 - [Amazon buys nuclear-powered data center from Talen](https://www.ans.org/news/article-5842/amazon-buys-nuclearpowered-data-center-from-talen/)
 - "The owners of roughly a third of U.S. nuclear-power plants are in talks with tech companies to provide electricity to new data centers needed to meet the demands of an artificial-intelligence boom."[^wsj1]
+- See [[Three Mile Island]]
 
 [^wsj1]:  [Tech Industry Wants to Lock Up Nuclear Power for AI](https://www.wsj.com/business/energy-oil/tech-industry-wants-to-lock-up-nuclear-power-for-ai-6cb75316?st=8vqcog8mo5bsiey&reflink=article_copyURL_share)
 [^wsj2]: [Arizona Deal Latest Sign of Booming Demand for Sites to Power AI](https://www.wsj.com/real-estate/arizona-deal-latest-sign-of-booming-demand-for-sites-to-power-ai-17e65ba2?st=6i8kpyv68ktr8wv&reflink=article_copyURL_share)

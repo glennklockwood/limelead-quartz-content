@@ -29,11 +29,17 @@ Hardware vendors often express component [[reliability]] in terms of their FIT r
 
 ## AFR
 
-AFR (annual failure rate) is the percent chance that a component will fail in a year. Assuming a year is 8,766 hours:
+AFR (annual failure rate) is the percent chance that a component will fail in a year. Assuming a year is 8,766 hours,
+
+$\text{AFR} = 1 - e^{- \frac{8766 \text{ hours}}{\text{MTBF}_{\text{hours}}}}$
+
+It is the percent chance that a component will fail within a year.
+
+You'll sometimes see this approximated as
 
 $\text{AFR} = \frac{8766 \text{ hours}}{\text{MTBF}_{\text{hours}}}$
 
-Like FIT, it is unitless since it really represents the number of components that will fail within a year.
+because $1 - e^{-x} \approx x$ for small values of $x$.  This seems lazy to me since it's not hard to calculate the exponent, and this breaks down for MTBFs that are a year or less.
 
 ## Predicting MTBF, FIT, and AFR
 
