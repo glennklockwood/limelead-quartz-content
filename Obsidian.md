@@ -97,3 +97,36 @@ graph LR
     B --> D{Diamond}
     C --> D
 ```
+
+## Omnivore
+
+I am trying to use Omnivore to save and annotate interesting articles, then import them into Obsidian so I can easily copy+paste them into pages here.  I use the following note template based on [Sync all your reading to Obsidian](https://docs.omnivore.app/integrations/obsidian.html)
+
+```
+From [{{{title}}}]({{{originalUrl}}}):
+
+{{#highlights.length}}{{#highlights}}> [!quote]
+> {{{text}}}[^{{{id}}}]
+
+{{#note}}{{{note}}}
+
+{{/note}}{{/highlights}}{{/highlights.length}}
+[^{{{id}}}]: [{{{title}}}]({{{originalUrl}}})
+```
+
+And my front matter template (under Advanced Options) is:
+
+```
+id: {{{id}}}
+title: >
+  {{{title}}}
+{{#author}}
+author: >
+  {{{author}}}
+{{/author}}
+source: {{{originalUrl}}}
+date_saved: {{{dateSaved}}}
+{{#datePublished}}
+date_published: {{{datePublished}}}
+{{/datePublished}}
+```

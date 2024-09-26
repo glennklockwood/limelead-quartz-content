@@ -11,7 +11,7 @@ This typically means the job involves three major activities?
 
 1. **Gathering requirements from HPC users**: What do their workloads benefit from the most and least? What's working well and not working well today? How will their needs change in the future?
 2. **Gathering requirements from workload analysis**: Sometimes users don't understand what they are really doing, or they overstate or understate what they think they will need. Other times, users conflict with each other in ways that cause problems that can be addressed through better system design.
-3. **Understanding technology trends**: You ultimately can't build a supercomputer out of parts that will never exist or are not profitable to produce. And supercomputers need to be installed in buildings with enough [[power]] and cooling available, today and in the future.
+3. **Understanding technology trends**: You ultimately can't build a supercomputer out of parts that will never exist or are not profitable to produce. And supercomputers need to be installed in buildings with enough power and cooling available, today and in the future.
 
 These pillars translate to different types of day-to-day responsibilities:
 

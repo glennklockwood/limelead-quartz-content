@@ -1,0 +1,32 @@
+{
+  "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+  "apiKey": "800c7e4c-2b75-4e24-bf19-135183153c24",
+  "filter": "HIGHLIGHTS",
+  "syncAt": "2024-09-26T16:33:37",
+  "customQuery": "in:all has:highlights label:obsidian",
+  "template": "From [{{{title}}}]({{{originalUrl}}}):\n\n{{#highlights.length}}{{#highlights}}> [!quote]\n> {{{text}}}[^{{{id}}}]\n\n{{#note}}{{{note}}}\n\n{{/note}}{{/highlights}}{{/highlights.length}}\n[^{{{id}}}]: [{{{title}}}]({{{originalUrl}}})",
+  "highlightOrder": "LOCATION",
+  "syncing": false,
+  "folder": "papers/omnivore",
+  "folderDateFormat": "yyyy-MM-dd",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}}",
+  "filenameDateFormat": "yyyy-MM-dd",
+  "attachmentFolder": "papers",
+  "version": "1.10.4",
+  "isSingleFile": false,
+  "frequency": 0,
+  "intervalId": 0,
+  "frontMatterVariables": [],
+  "frontMatterTemplate": "id: {{{id}}}\ntitle: >\n  {{{title}}}\n{{#author}}\nauthor: >\n  {{{author}}}\n{{/author}}\nsource: {{{originalUrl}}}\ndate_saved: {{{dateSaved}}}\n{{#datePublished}}\ndate_published: {{{datePublished}}}\n{{/datePublished}}\ndraft: true\ntags: omnivore",
+  "syncOnStart": true,
+  "enableHighlightColorRender": false,
+  "highlightManagerId": "omni",
+  "highlightColorMapping": {
+    "yellow": "#fff3a3",
+    "red": "#ff5582",
+    "blue": "#adccff",
+    "green": "#bbfabb"
+  }
+}

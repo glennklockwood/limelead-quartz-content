@@ -1,11 +1,10 @@
 ---
-title: Electricity and power for HPC
+title: Sustainability in HPC
 aliases:
-  - nuclear
-  - electricity
-  - nuclear power
 ---
 ![[nuclear power station.png|360]]
+
+This page is a central point for topics related to reducing the carbon footprint of large-scale HPC and AI infrastructure.
 
 ## Scale
 
@@ -28,6 +27,8 @@ aliases:
 - Silver Lake, Vantage, DigitalBridge[^wsj3]
 
 ## Nuclear
+
+[[nuclear|Nuclear power]] is a zero-carbon source of energy that provides the base load power required by large AI data centers.
 
 - [Amazon buys nuclear-powered data center from Talen](https://www.ans.org/news/article-5842/amazon-buys-nuclearpowered-data-center-from-talen/)
 - "The owners of roughly a third of U.S. nuclear-power plants are in talks with tech companies to provide electricity to new data centers needed to meet the demands of an artificial-intelligence boom."[^wsj1]

@@ -1,4 +1,4 @@
-Three Mile Island is a [[power|nuclear power]] station in Pennsylvania. In September 2024, its owner, [Constellation, announced that it signed an agreement with Microsoft](https://www.constellationenergy.com/newsroom/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html) whereby:
+Three Mile Island is a [[nuclear power]] station in Pennsylvania. In September 2024, its owner, [Constellation, announced that it signed an agreement with Microsoft](https://www.constellationenergy.com/newsroom/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html) whereby:
 
 - Constellation would refurbish and bring online the 837 MW TMI-1 reactor at a cost of $1.6 billion by 2028.[^cnbc] The reactor was taken offline in 2019 due to adverse economic conditions.
 - The reactor will operate until at least 2054

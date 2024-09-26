@@ -1,3 +1,6 @@
+---
+title: Government's role in AI
+---
 This is a messy collection of notes I've been maintaining with an eventual goal of writing a blog post about this. I don't know if that will ever happen.
 
 ## Infrastructure
@@ -26,7 +29,7 @@ From [The Returns of Government R&D: Evidence from U.S. Appropriations Shocks](h
 
 Industry leads innovation in AI research, infrastructure, and people gravity. Consider [[Eagle]] (Microsoft) and [[Meta's H100 clusters]] (Meta). Also see anecdotes in [[LLM training at scale]].
 
-50 MW sounds big to the government, but it's not for industry. Industry isn’t constrained like government is by having to build data centers based on politics rather than space, [[power]], and cooling. For example, see [How a small city in Iowa became an epicenter for advancing AI - Source (microsoft.com)](https://news.microsoft.com/source/features/ai/west-des-moines-iowa-ai-supercomputer/).
+50 MW sounds big to the government, but it's not for industry. Industry isn’t constrained like government is by having to build data centers based on politics rather than space, power, and cooling. For example, see [How a small city in Iowa became an epicenter for advancing AI - Source (microsoft.com)](https://news.microsoft.com/source/features/ai/west-des-moines-iowa-ai-supercomputer/). A richer discussion is in [[sustainability in HPC]].
 
 Government will never catch up because paying customers are more demanding than public researchers:
 
