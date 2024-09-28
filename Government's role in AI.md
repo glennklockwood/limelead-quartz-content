@@ -1,5 +1,7 @@
 ---
 title: Government's role in AI
+tags:
+  - topic
 ---
 This is a messy collection of notes I've been maintaining with an eventual goal of writing a blog post about this. I don't know if that will ever happen.
 

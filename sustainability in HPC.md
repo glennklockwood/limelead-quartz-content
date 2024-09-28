@@ -1,6 +1,8 @@
 ---
 title: Sustainability in HPC
-aliases:
+aliases: 
+tags:
+  - topic
 ---
 ![[nuclear power station.png|360]]
 

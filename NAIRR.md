@@ -31,14 +31,14 @@ The "non-governmental partners" are:[^wh]
 
 1. Allen Institute
 2. AWS
-3. Anthropic
+3. Anthropic - providing API access to its closed models[^ascac2409]
 4. AMD
 5. Cerebras
 6. Databricks
 7. Datavant (what's this?)
-8. EleutherAI
+8. EleutherAI - nonprofit with experience training LLMs[^ascac2409]
 9. Google
-10. Groq
+10. Groq - allows researchers to bring their own models for inferencing[^ascac2409]
 11. HPE
 12. Huggingface
 13. IBM
@@ -48,13 +48,15 @@ The "non-governmental partners" are:[^wh]
 17. MLCommons
 18. NVIDIA
 19. Omidyar Network (what's this?)
-20. OpenAI
-21. OpenMined (what's this?)
+20. OpenAI - providing API access to its closed models[^ascac2409]
+21. OpenMined - focus on privacy-preserving models[^ascac2409]
 22. Palantir
 23. Regenstrief Institute
 24. SambaNova
 25. Vocareum (what's this?)
-26. Weights & Biases/
+26. Weights & Biases
+
+[^ascac2409]: Katie Antypas, _The National Artificial Intelligence Research Resource (NAIRR)_. [ASCAC Meeting in September 2024](https://science.osti.gov/ascr/ascac/Meetings/202409).
 
 ## Full-scale
 
