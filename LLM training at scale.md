@@ -2,7 +2,7 @@
 tags:
   - anecdotes
 ---
-Unique challenges arise when performing [[LLM training]] at the scale required for [[frontier models]], and there is no end in sight for training increasingly large models to get higher quality results.[^3]
+Unique challenges arise when performing [[LLM training]] at the scale required for [[frontier model]]s, and there is no end in sight for training increasingly large models to get higher quality results.[^3]
 
 ## Multi-data center training
 

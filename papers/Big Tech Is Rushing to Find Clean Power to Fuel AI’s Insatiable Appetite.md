@@ -10,6 +10,7 @@ date_published: 2024-09-24 07:00:00
 draft: false
 tags:
   - omnivore
+  - energy
 ---
 [Big Tech Is Rushing to Find Clean Power to Fuel AI’s Insatiable Appetite](https://www.wsj.com/tech/ai/big-tech-is-rushing-to-find-clean-power-to-fuel-ais-insatiable-appetite-31f91330?reflink=article_copyURL_share&st=wjyvAk) is part of the [[sustainability in HPC]] discussion.
 

@@ -24,6 +24,7 @@ VAST's most notable customers include:
 - CoreWeave, a growing player in providing GPUs-as-a-Service[^5]
 - Lambda Labs, a major GPU-as-a-Service cloud provider[^6]
 - Core42, a major GPU-as-a-Service cloud provider in the middle east[^7]
+- xAI[^8]
 
 [^1]: [Meet Your Need for Speed with NFS and VAST Data](https://www.vastdata.com/blog/meet-your-need-for-speed-with-nfs)
 [^2]: [Breaking Resiliency Trade-Offs with Locally Decodable Codes (vastdata.com)](https://www.vastdata.com/blog/breaking-resiliency-trade-offs-with-locally-decodable-erasure-codes)
@@ -32,3 +33,4 @@ VAST's most notable customers include:
 [^5]: [CoreWeave Partners With VAST Data](https://www.vastdata.com/coreweave)
 [^6]: [Lambda Partners with VAST Data](https://www.vastdata.com/lambda)
 [^7]: [Core42 Partners with VAST Data](https://www.vastdata.com/core42)
+[^8]: [Grok is being built on the VAST Data platform!](https://x.com/JeffDenworth/status/1841303386660254123)

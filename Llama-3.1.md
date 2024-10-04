@@ -5,7 +5,7 @@ tags:
 aliases:
   - Llama-3
 ---
-Llama-3 is a family of models described in [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783). Its largest form, Llama-3.1 405b, is a [[frontier models|frontier model]].
+Llama-3 is a family of models described in [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783). Its largest form, Llama-3.1 405b, may be considered a [[frontier model]].
 
 Llama-3 is a dense [[transformer]] that is a bigger and better-trained version of the previous Llama-2 model.  Compared to that model,
 

@@ -92,7 +92,7 @@ To put this in concrete terms, I am frequently faced with the dilemma: is my tim
 
 Realistically, investing my time in the government has a negligible role in "moving the needle" in a meaningful way. It may slightly increase the chances that DOE would award a major system procurement to me as an AI company, but even then, that business would have low gross margin due to the extensive requirements and oversight that accompanies those procurements. A similarly sized opportunity could surface with a twenty-person AI startup with higher margins backed by private equity and a more agile approach to partnership.
 
-The latter may reduce the overall training time for the next [[frontier models|frontier model]] by 5%, save millions of dollars in spend, and increase our competitive lead by weeks. The answer is always to choose the latter, resulting in the former being relegated to a passion project which consumes my nights and weekends. FASST should find ways to make this dilemma much less black and white.
+The latter may reduce the overall training time for the next [[frontier model]] by 5%, save millions of dollars in spend, and increase our competitive lead by weeks. The answer is always to choose the latter, resulting in the former being relegated to a passion project which consumes my nights and weekends. FASST should find ways to make this dilemma much less black and white.
 
 ## Response guidelines
 

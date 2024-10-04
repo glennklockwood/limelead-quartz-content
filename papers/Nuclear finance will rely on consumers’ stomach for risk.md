@@ -10,6 +10,7 @@ date_published: 2024-09-24 21:00:11
 draft: false
 tags:
   - omnivore
+  - energy
 ---
 From [Nuclear finance will rely on consumers’ stomach for risk](https://www.ft.com/content/0608e36e-51cd-4ab7-bd18-62a536808536):
 

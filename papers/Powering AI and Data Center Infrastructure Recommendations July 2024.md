@@ -9,6 +9,7 @@ date_saved: 2024-08-31 23:54:00
 draft: false
 tags:
   - omnivore
+  - energy
 ---
 [Powering AI and Data Center Infrastructure Recommendations July 2024](https://omnivore.app/attachments/u/61d30ab1-f56c-4aa0-878f-c160c35e8a2f/PoweringAIandDataCenterInfrastructureRecommendationsJuly2024.pdf) is a part of both the [[sustainability in HPC]] and [[government's role in AI]] discussions.
 
