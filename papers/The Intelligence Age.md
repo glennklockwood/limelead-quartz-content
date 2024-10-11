@@ -14,7 +14,7 @@ tags:
 From [The Intelligence Age](https://ia.samaltman.com):
 
 > [!quote]
-> It is possible that we will have superintelligence in a few thousand days (!);[^b29d3456-6b92-4373-aff9-2be74b026720]
+> It is possible that we will have [[superintelligence]] in a few thousand days (!);[^b29d3456-6b92-4373-aff9-2be74b026720]
 
 A bit lofty, but what do I know?
 

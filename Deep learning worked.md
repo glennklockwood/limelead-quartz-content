@@ -4,7 +4,7 @@ tags:
 ---
 From https://ia.samaltman.com/:
 
-> This may turn out to be the most consequential fact about all of history so far. ==It is possible that we will have superintelligence in a few thousand days (!);== it may take longer, but I’m confident we’ll get there.
+> This may turn out to be the most consequential fact about all of history so far. ==It is possible that we will have [[superintelligence]] in a few thousand days (!);== it may take longer, but I’m confident we’ll get there.
 > 
 > How did we get to the doorstep of the next leap in prosperity?
 > 
