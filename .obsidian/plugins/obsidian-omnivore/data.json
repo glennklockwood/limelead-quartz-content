@@ -3,7 +3,7 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "800c7e4c-2b75-4e24-bf19-135183153c24",
   "filter": "HIGHLIGHTS",
-  "syncAt": "2024-10-10T09:41:53",
+  "syncAt": "2024-10-14T12:15:17",
   "customQuery": "in:inbox has:highlights label:obsidian",
   "template": "From [{{{title}}}]({{{originalUrl}}}):\n\n{{#highlights.length}}{{#highlights}}> [!quote]\n> {{{text}}}[^{{{id}}}]\n\n{{#note}}{{{note}}}\n\n{{/note}}{{/highlights}}{{/highlights.length}}\n[^{{{id}}}]: [{{{title}}}]({{{originalUrl}}})",
   "highlightOrder": "LOCATION",

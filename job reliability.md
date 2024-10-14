@@ -31,9 +31,9 @@ A team at Sandia ran an application called SPARTA on [[LANL Trinity]] across 1.2
 
 They also cite software bugs they discovered at scale, so it is unclear how much of those three days were actually spent computing. As such, it is hard to say what the JMTTI was except that the upper bound was $\frac{3 \text{ days} \times 24 \text{ hours}}{6 \text{ failures}} = 12 \text{ hours}$.
 
-[^1]: [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783)
+[^1]: "Despite these challenges, for Llama 3, we achieved higher than 90% effective training time while supporting automated cluster maintenance, such as firmware and Linux kernel upgrades, which resulted in at least one training interruption daily. The effective training time measures the time spent on useful training over the elapsed time." [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783)
 [^2]: [Failure in large scale systems: long-term measurement, analysis, and implications](https://dl.acm.org/doi/10.1145/3126908.3126937)
 [^3]: [Full Trinity run with SPARTA](https://www.osti.gov/servlets/purl/1528747)
 [^4]: Hemmert et al. [Trinity: Opportunities and Challenges of a Heterogeneous System](https://cug.org/proceedings/cug2018_proceedings/includes/files/pap135s2-file1.pdf). 2018.
-[^5]: [Gemini: A Family of Highly Capable Multimodal Models](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
+[^5]: "Compared to both PaLM and PaLM-2, this provided a substantial speedup in recovery time, despite the significantly larger training resources being used. As a result, the overall goodput for the largest-scale training job increased from 85% to 97%." [Gemini: A Family of Highly Capable Multimodal Models](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
 [^opt175b]: See the [[OPT-175B]] page for a breakdown of that training.

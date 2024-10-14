@@ -51,5 +51,16 @@ Wikipedia says it uses
 
 It is sited at Tecnopolo Bologna in a data center that used to be a tobacco factory.[^1] This is the same place ECMWF sites its supercomputers.
 
+## LISA Upgrade
+
+In September 2024, the Italian government and EuroHPC JU issued an RFP for the "Leonardo Improved Supercomputing Architecture" (LISA) for delivery in April 2025 and acceptance in August 2025.[^27839d65-0b26-4052-8bee-8e800487fa35] It is a very prescriptive expansion that effectively asks for either 8-way [[H100]] HGX or [[MI300X]] OAM nodes:
+
+> [!quote]
+> the LISA partition must include at least 165 nodes, have memory coherence for the GPUs inside the nodes, and must have eight GPUs in the node[^27839d65-0b26-4052-8bee-8e800487fa35]
+
+> [!quote]
+> Each GPU has to have at least 80 GB of HBM memory. The host node has to have two X86 CPUs and must have at least 1 TB of main memory and all memory slots occupied to saturate the available [[DRAM architecture|memory channels]] from the CPUs.[^27839d65-0b26-4052-8bee-8e800487fa35]
+
 [^1]: [OMA · Bologna Tecnopolo · Divisare](https://divisare.com/projects/204584-oma-bologna-tecnopolo)
 [^14090]: [[2408.14090] Exploring GPU-to-GPU Communication: Insights into Supercomputer Interconnects (arxiv.org)](https://doi.org/10.48550/arXiv.2408.14090)
+[^27839d65-0b26-4052-8bee-8e800487fa35]: [A GPU Upgrade For “Leonardo” Supercomputer But Not A Budget Upgrade](https://www.nextplatform.com/2024/09/23/a-gpu-upgrade-for-leonardo-supercomputer-but-not-a-budget-upgrade/)
