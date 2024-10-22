@@ -3,9 +3,9 @@ tags:
   - anecdotes
   - model
 ---
-[OPT-175B](https://arxiv.org/abs/2205.01068) is the largest of Meta's Open Pretrained Transformer models, released in May 2022 and trained at the end of 2021.
+[OPT-175B](https://arxiv.org/abs/2205.01068) is the largest of [[Meta]]'s Open Pretrained Transformer models, released in May 2022 and trained at the end of 2021.
 
-It was trained on 992[^paper] or 1024[^logbook-final] NVIDIA [[A100]] 80G GPUs running in Azure[^azure] over the course of 56 days.[^zhang] A [114-page logbook](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT/chronicles) was released by Meta that documents the on-call engineers who kept the training happening during that time, offering a unique view into [[LLM training at scale]].
+It was trained on 992[^paper] or 1024[^logbook-final] NVIDIA [[A100]] 80G GPUs running in [[Microsoft|Microsoft Azure]][^azure] over the course of 56 days.[^zhang] A [114-page logbook](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT/chronicles) was released by Meta that documents the on-call engineers who kept the training happening during that time, offering a unique view into [[LLM training at scale]].
 
 ## Efficiency
 

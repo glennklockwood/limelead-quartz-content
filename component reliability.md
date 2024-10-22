@@ -8,7 +8,7 @@ There are many relevant terms and concepts. Here is a brain dump of them:
 
 ## In practice
 
-Meta published reliability information from their 16K GPU training run of [[Llama-3.1]] 405b. 466 interrupts occurred over the 54-day training run, resulting in a 90% job uptime.
+[[Meta]] published reliability information from their 16K GPU training run of [[Llama-3.1]] 405b. 466 interrupts occurred over the 54-day training run, resulting in a 90% job uptime.
 
 Of those 466, 47 were planned activities (hardware/firmware updates or changes to training). 419 were unplanned and broken down as follows:[^1]
 

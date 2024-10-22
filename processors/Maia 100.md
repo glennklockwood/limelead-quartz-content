@@ -5,7 +5,7 @@ aliases:
 tags:
   - GPU
 ---
-Maia (Microsoft Artificial Intelligence Accelerator, but stylized _Maia_) is Microsoft's first-generation AI accelerator. Key features:[^blog]
+Maia ([[Microsoft]] Artificial Intelligence Accelerator, but stylized _Maia_) is Microsoft's first-generation AI accelerator. Key features:[^blog]
 
 - One Maia 100 = 16 clusters = 64 tiles
 	- Tensor unit implemented as 16xRx16 (not sure what this means; does this notation connect with that used to describe [[tensor cores|tensor core]] capabilities?)

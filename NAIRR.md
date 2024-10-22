@@ -43,8 +43,8 @@ The "non-governmental partners" are:[^wh]
 12. Huggingface
 13. IBM
 14. Intel
-15. Meta
-16. Microsoft
+15. [[Meta]]
+16. [[Microsoft]]
 17. MLCommons
 18. NVIDIA
 19. Omidyar Network (what's this?)

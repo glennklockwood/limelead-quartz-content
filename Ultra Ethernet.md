@@ -7,7 +7,7 @@ aliases:
 ---
 ## Members
 
-Founding members include AMD, Arista, Broadcom, Cisco, Eviden, HPE, Intel, Meta, and Microsoft.
+Founding members include AMD, Arista, Broadcom, Cisco, Eviden, HPE, Intel, [[Meta]], and [[Microsoft]].
 
 The following notes are a loose summary of [Ultra Ethernet Specification Update - Ultra Ethernet Consortium](https://ultraethernet.org/ultra-ethernet-specification-update/) with some extra context I've picked up along the way.
 

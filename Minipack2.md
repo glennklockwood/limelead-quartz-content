@@ -2,7 +2,7 @@
 tags:
   - network
 ---
-Minipack2 is a 4U modular switch developed by Meta and manufactured by Celestica.[^1]
+Minipack2 is a 4U modular switch developed by [[Meta]] and manufactured by Celestica.[^1]
 
 ![[Minipack2 front iso view.png|480]]
 

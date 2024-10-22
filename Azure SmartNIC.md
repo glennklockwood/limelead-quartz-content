@@ -8,7 +8,7 @@ aliases:
   - Catapult
   - MANA
 ---
-Azure uses SmartNICs in all of its servers to offload SDN functions since 2015.[^nsdi] Microsoft has historically implemented these NICs as a bump-in-the-wire FPGA sitting between a standard host NIC (like a Mellanox ConnectX-5) and the network cable that connects up to a switch.[^nsdi]
+[[Microsoft]] uses SmartNICs in all of its Azure servers to offload SDN functions since 2015.[^nsdi] Microsoft has historically implemented these NICs as a bump-in-the-wire FPGA sitting between a standard host NIC (like a Mellanox ConnectX-5) and the network cable that connects up to a switch.[^nsdi]
 
 ## History
 
@@ -34,7 +34,7 @@ Microsoft had an [[Azure HBv4]] with a "second-generation"[^hbv4] 80G NIC on dis
 
 ## MANA
 
-The Microsoft Azure Network Adapter (MANA) is a 200G SmartNIC[^blog] that was unveiled at Build 2022.[^1] It is built on an undisclosed(?) FPGA and an Arm SoC running Microsoft Linux and is built on a single card as shown by Mark Russinovich:
+The Microsoft Azure Network Adapter (MANA) is a 200G SmartNIC[^blog] that was unveiled at Build 2022.[^1] It is built on an undisclosed(?) FPGA and an Arm SoC running Microsoft Linux and is built on a single card as shown by [[Mark Russinovich]]:
 
 ![[Azure MANA NIC.jpg]]
 

@@ -4,7 +4,7 @@ tags:
 title: Azure HBv4
 ---
 
-Azure HBv4 is Microsoft's CPU-only node for HPC.
+Azure HBv4 is [[Microsoft]]'s CPU-only node for HPC.
 
 Each node has:[^1]
 

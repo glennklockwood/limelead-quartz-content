@@ -7,7 +7,7 @@ aliases:
 tags:
   - node
 ---
-[ND A100 v4](https://learn.microsoft.com/en-us/azure/virtual-machines/ndm-a100-v4-series) is Azure's eight-way [[A100]] VM type and compute node. It comes in two varieties:
+[ND A100 v4](https://learn.microsoft.com/en-us/azure/virtual-machines/ndm-a100-v4-series) is [[Microsoft]]'s eight-way [[A100]] VM type and compute node. It comes in two varieties:
 
 | Name        | Instance                  | Config                |
 | ----------- | ------------------------- | --------------------- |

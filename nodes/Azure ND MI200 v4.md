@@ -6,7 +6,7 @@ aliases:
 tags:
   - node
 ---
-ND MI200 v4 is Azure's eight-way [[MI250X]] VM type and compute node. I don't think it was ever made available to the public, but Microsoft's [Explorer](https://top500.org/system/180171/) supercomputer was built using this node and debuted at #11 in the [June 2023 Top500 list](https://top500.org/lists/top500/2023/06/).
+ND MI200 v4 is [[Microsoft]]'s eight-way [[MI250X]] VM type and compute node. I don't think it was ever made available to the public, but Microsoft's [Explorer](https://top500.org/system/180171/) supercomputer was built using this node and debuted at #11 in the [June 2023 Top500 list](https://top500.org/lists/top500/2023/06/).
 
 The physical node looks like this:[^1]
 

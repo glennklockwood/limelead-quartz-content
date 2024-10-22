@@ -6,7 +6,7 @@ aliases:
   - ND H100 v5
   - Standard_ND96isr_MI300X_v5
 ---
-ND H100 v5 is Azure’s eight-way [[H100]] VM and node. It resembles the NVIDIA DGX [[H100]] reference architecture and uses a similar Intel Sapphire Rapids host platform.
+ND H100 v5 is [[Microsoft]]’s eight-way [[H100]] VM and node. It resembles the NVIDIA DGX [[H100]] reference architecture and uses a similar Intel Sapphire Rapids host platform.
 
 Each VM has[^2]
 

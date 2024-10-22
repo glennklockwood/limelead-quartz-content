@@ -2,6 +2,7 @@
 title: MTBF, FIT, and AFR
 aliases:
   - FIT rate
+  - survival function
 ---
 MTBF, FIT, and AFR are closely related concepts that describe [[component reliability]]. In brief,
 
@@ -17,6 +18,10 @@ If you had to send five nodes back for replacement in the past six months, your 
 
 $\text{MTBF} = \frac{6 \text{ months}}{5 \text{ failures}} = 1.2 \text{ months}$
 
+If you know the [[MTBF#Survival function|survival function]] of a component $R(t)$, you can also express MTBF in terms of that:
+
+$\text{MTBF} = \int_0^{\infty} R(t) dt$
+
 ## FIT
 
 FIT (failures in time) rate is a closely related concept and is the inverse of the MTBF per billion hours in service:
@@ -27,19 +32,58 @@ It is a unitless quantity because it represents a number of failures.
 
 Hardware vendors often express component [[reliability]] in terms of their FIT rate.
 
+## Failure rate ($\lambda$)
+
+Failure rate is the frequency with which a component fails and is measured in units of failures per unit time. If the unit time is $10^9$ hours, it is the same as the FIT rate.
+
+As with FIT rate, it is inversely related to MTBF:
+
+$\lambda = \frac{1}{\text{MTBF}}$
+
+## Survival function
+
+Survival function (or _reliability function_) describes the probability that a component will survive for at least a certain amount of time. It can be inferred if you know the failure rate $\lambda$ from above.
+
+Survival function $R(t) = e^{- \lambda t}$
+
+Recall that the failure rate $\lambda$ is inversely related to MTBF, you then get:
+
+$R(t) = e^{- \frac{t}{\text{MTBF}}}$
+
+Or maybe more meaningfully, the probability that a component will fail within a certain amount of time:
+
+$F(t) = 1 - e^{- \frac{t}{\text{MTBF}}}$
+
 ## AFR
 
-AFR (annual failure rate) is the percent chance that a component will fail in a year. Assuming a year is 8,766 hours,
+AFR (annualized failure rate) seems to have two definitions:
 
-$\text{AFR} = 1 - e^{- \frac{8766 \text{ hours}}{\text{MTBF}_{\text{hours}}}}$
+1. The intuitive one, which is the failure rate $\lambda$ normalized to a year
+2. The [Wikipedia definition](https://en.wikipedia.org/wiki/Annualized_failure_rate) which is the probability that a component will fail in a year
 
-It is the percent chance that a component will fail within a year.
+The big difference is that #1 can be above 100% (more than one component fails per year, or a component fails multiple times per year), but #2 approaches 100% asymptotically.
 
-You'll sometimes see this approximated as
+### Intuitive (failures per year)
+
+The intuitive AFR, or the frequency of component failure per year, is easy to define assuming a year is 8,766 hours:
 
 $\text{AFR} = \frac{8766 \text{ hours}}{\text{MTBF}_{\text{hours}}}$
 
-because $1 - e^{-x} \approx x$ for small values of $x$.  This seems lazy to me since it's not hard to calculate the exponent, and this breaks down for MTBFs that are a year or less.
+It is unitless because it is a percentage.
+
+### Wikipedia (probability of failure)
+
+The Wikipedia definition is really just the survival function from above. Recall:
+
+$F(t) = 1 - e^{- \frac{t}{\text{MTBF}}}$
+
+If you use $t = 8766$ hours per year, you get
+
+$\text{AFR} = 1 - e^{- \frac{8766 \text{ hours}}{\text{MTBF}_\text{hours}}}$
+
+### Further confusion
+
+It doesn't help that $\frac{1}{x}$ is often used as an approximation of $1 - e^{-\frac{1}{x}}$. This results in some sources claiming that the intuitive definition is just an approximation of the other definition, but this is not true.
 
 ## Predicting MTBF, FIT, and AFR
 

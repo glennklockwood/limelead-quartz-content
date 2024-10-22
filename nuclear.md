@@ -17,7 +17,7 @@ As far as I know, there is only one new nuclear reactor being built in the US: [
 There are a handful of reactors that have been recently decommissioned that are being brought back to life to support increased energy demands of AI.
 
 - [[Palisades]] (Michigan) is an 805 MW reactor being restarted by Holtec International. US DOE offered a $1.5 billion loan, and the state of Michigan is offering $300 million.
-- [[Three Mile Island]] (Pennsylvania) is an 837 MW reactor being restarted by Constellation and is bankrolled by Constellation ($1.6 billion) after Microsoft committed to pay for all its energy for twenty years.
+- [[Three Mile Island]] (Pennsylvania) is an 837 MW reactor being restarted by Constellation and is bankrolled by Constellation ($1.6 billion) after [[Microsoft]] committed to pay for all its energy for twenty years.
 - [[Duane Arnold]] (Iowa) is a 601 MW reactor that is under decommissioning. It has not yet been restarted, but it is one of few reactors that has not passed the point of no return in the decommissioning process.[^duane]
 
 Nuclear energy for AI came into the spotlight when it was announced that [Amazon buys nuclear-powered data center from Talen](https://www.ans.org/news/article-5842/amazon-buys-nuclearpowered-data-center-from-talen/) at the 2.5 GW [[Susquehanna Steam Electric Station]].

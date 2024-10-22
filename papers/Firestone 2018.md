@@ -3,7 +3,7 @@ title: "Azure Accelerated Networking: SmartNICs in the Public Cloud"
 tags:
   - paper/microsoft
 ---
-Source: [Azure Accelerated Networking: SmartNICs in the Public Cloud - Microsoft Research](https://www.microsoft.com/en-us/research/publication/azure-accelerated-networking-smartnics-public-cloud/)
+Source: [Azure Accelerated Networking: SmartNICs in the Public Cloud - Microsoft Research](https://www.microsoft.com/en-us/research/publication/azure-accelerated-networking-smartnics-public-cloud/). It is a paper published by [[Microsoft]] about its [[Azure SmartNIC]] technologies.
 
 > GFT [[flow|flows]] are defined based on the VFP unified [[flow|flows]] (UF) definition, matching a unique source and destination L2/L3/L4 tuple, potentially across multiple layers of encapsulation, along with a header transposition (HT) action specifying how header fields are to be added/removed/changed
 

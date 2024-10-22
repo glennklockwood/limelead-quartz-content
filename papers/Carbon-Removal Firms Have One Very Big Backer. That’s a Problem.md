@@ -19,7 +19,7 @@ aliases:
 [Carbon-Removal Firms Have One Very Big Backer. That’s a Problem](https://www.wsj.com/articles/carbon-removal-firms-have-one-very-big-backer-thats-a-problem-c15044de?mod=article_inline) is a part of the [[sustainability in HPC]] discussion.
 
 > [!quote]
-> Most of the money, however, is coming from just one buyer: [Microsoft](https://www.wsj.com/market-data/quotes/MSFT).[^f7a6724e-6992-41aa-bbef-c230299c45ed]
+> Most of the money, however, is coming from just one buyer: [[Microsoft]].[^f7a6724e-6992-41aa-bbef-c230299c45ed]
 
 The accompanying plot is staggering because it visualizes the following:
 

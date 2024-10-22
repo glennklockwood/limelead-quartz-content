@@ -13,13 +13,13 @@ Unique challenges arise when performing [[LLM training]] at the scale required f
 > [!quote]
 > “I think it’s inevitable, especially when you get to the kind of scale that these things are getting to,” he said. “In some cases, that might be the only feasible way to train them is to go across data centers, or even across regions,” he said.
 
-[[Dylan Patel]] wrote a broad report on this behind a paywall, but the summary claims that Google and Microsoft/OpenAI are both pursuing this.[^dylan]
+[[Dylan Patel]] wrote a broad report on this behind a paywall, but the summary claims that Google and [[Microsoft]]/OpenAI are both pursuing this.[^dylan]
 
 ## Silent data corruption
 
 Google reported silent data corruption events "every week or two." They used dedicated resources to monitor for silent data corruption, and used deterministic training to allow training to be replayed to recalculate weight updates when silent data corruption was detected. They do not say exactly how they detect silent data corruption and whether it only detected high-order bits or all corruption events.[^2]
 
-Meta reported six silent data corruptions when training across 16K [[H100]] GPUs for 54 days.[^llama3]
+[[Meta]] reported six silent data corruptions when training across 16K [[H100]] GPUs for 54 days.[^llama3]
 
 ## Asynchronous training
 

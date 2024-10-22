@@ -6,6 +6,8 @@ These are notes and references I've been accumulating to understand how AI workf
 
 ## Workload partitioning
 
+### Basics
+
 There are three ways in which **training** a model can be divided across GPU nodes:
 
 1. Data parallelism
@@ -25,9 +27,26 @@ There are three ways in which **training** a model can be divided across GPU nod
 
 These parallelization approaches can be used at the same time.  For example, training a large language model across multiple DGX nodes likely involves tensor parallelism within the DGX node (since it has NVLink which makes the communication fast), pipeline parallelism across 16 DGX nodes, and data parallelism to accelerate training by scaling to a thousand DGX nodes.
 
-Implementing these levels of parallelism concurrently is complicated, and a set of frameworks and further refinements to them have popped up. [Huggingface has a page on parallelism][huggingface parallelism] that explains some of the more sophiciated combinations such as ZeRO.
+### Advanced
 
-Many papers that propose new parallelization schemes also describe these approaches in their introductions. For example, the [PyTorch FSDP paper][] explains these very well and introduces a more advanced approach, sharded data parallel.
+Implementing these levels of parallelism concurrently is complicated, and a set of frameworks and further refinements to them have popped up. [Huggingface has a page on parallelism][huggingface parallelism] that explains some of the more sophisticated combinations such as ZeRO.
+
+Many papers that propose new parallelization schemes also describe these approaches in their introductions. For example,
+
+* the [PyTorch FSDP paper][] explains these very well and introduces a more advanced approach, sharded data parallel
+* the [TorchTitan paper](https://arxiv.org/abs/2410.06511) integrates a number of advanced features including
+	- [[activation checkpointing]] in multiple forms
+	- asynchronous tensor parallelism
+	- parallelizing loss functions
+	- parallelizing norm and dropout ([[sequence parallelism]]).
+
+### Frameworks
+
+Parallelism is usually implemented within training frameworks and not by model developers. Examples of such frameworks include:
+
+- [NVIDIA's Megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209)
+- [Microsoft's DeepSpeed](https://dl.acm.org/doi/10.1145/3394486.3406703)
+- [PyTorch distributed](https://pytorch.org/docs/stable/distributed.html)
 
 [huggingface parallelism]: https://huggingface.co/docs/transformers/v4.17.0/en/parallelism
 [PyTorch FSDP paper]: https://arxiv.org/abs/2304.11277

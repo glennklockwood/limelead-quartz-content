@@ -15,7 +15,7 @@ The system will be built on [[BullSequana XH3000]] and will have two partitions:
 		- 4C:4G (four superchips per node)
 		- 24,000 [[H100|H200]] GPUs
 		- 4 NDR200 [[InfiniBand]] HCAs per node
-	- "1 ExaFLOP/s (FP64, [[HPL]])" which seems feasible given Meta's H100 clusters are 24K H100s and estimated to be just a few FLOPS shy of 1 EF each.
+	- "1 ExaFLOP/s (FP64, [[HPL]])" which seems feasible given [[Meta's H100 clusters]] are 24K H100s and estimated to be just a few FLOPS shy of 1 EF each.
 - Cluster Module: [[SiPearl Rhea]] CPUs
 	- "more than 1300 nodes"
 	- "more than 5 PetaFLOP/s (FP64, [[HPL]])"

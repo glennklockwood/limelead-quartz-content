@@ -4,6 +4,7 @@ aliases:
   - CDNA 2
   - CDNA 3
   - CDNA 4
+unlisted: false
 ---
 CDNA is AMD's designation for its data center GPU architecture.
 

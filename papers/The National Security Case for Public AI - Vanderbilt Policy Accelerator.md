@@ -31,7 +31,7 @@ Regulation won't work nearly as well when the workforce is remote and the regula
 
 This is one of the most nonsensical things I've read on this topic, and it reads like the perspective of someone who's never worked on both sides of technology. Likening leadership in AI innovation to the rollout of a generic web service like healthcare.gov reflects a complete lack of understanding of how AI, and the specialized expertise it requires, differs from general IT functions.
 
-There is no such thing as “more affordable mission-driven staff” when it comes to AI. Do you think people working at Meta, OpenAI, and other leading AI labs are “affordable” by the typical American taxpayer's standards?
+There is no such thing as “more affordable mission-driven staff” when it comes to AI. Do you think people working at [[Meta]], OpenAI, and other leading AI labs are “affordable” by the typical American taxpayer's standards?
 
 I believe in the mission more than most people working in Big Tech, but this claim is patently absurd.
 

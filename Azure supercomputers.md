@@ -1,11 +1,11 @@
 ---
 title:
 ---
-It's hard to keep track of Microsoft's public disclosures about its AI supercomputers, so here is what has been stated publicly.
+It's hard to keep track of [[Microsoft]]'s public disclosures about its AI supercomputers, so here is what has been stated publicly.
 
 ## Kevin Scott at Build 2024
 
-From https://news.microsoft.com/wp-content/uploads/prod/2024/05/KevinScott_transcript_KEY01_Build20204.pdf:
+[[Kevin Scott]] qualitatively spoke about the size of Azure's largest AI training supercomputers in the [Microsoft Build opening keynote transcript](https://news.microsoft.com/wp-content/uploads/prod/2024/05/KevinScott_transcript_KEY01_Build20204.pdf):
 
 > [!quote]
 > In 2020, we built our first Al supercomputer for OpenAI. It's the supercomputing environment that trained GPT-3. And so, we're going to just choose "marine wildlife" as our scale marker.
@@ -16,9 +16,11 @@ From https://news.microsoft.com/wp-content/uploads/prod/2024/05/KevinScott_trans
 >
 > The system that we have just deployed is, scale wise, about as big as a whale relative to the shark-sized supercomputer and this orca-sized supercomputer. And it turns out you can build a whole hell of a lot of Al with a whale-sized supercomputer. (Laughter.)
 
+The recording of this talk is here: [Microsoft Build opening keynote | KEY01](https://youtu.be/_r9em36n2b0?si=kRKTZNZ7zldT0UQz&t=7877).
+
 ## Mark Russinovich at Build 2024:
 
-The following is from [Inside Microsoft AI innovation with Mark Russinovich](https://build.microsoft.com/en-US/sessions/984ca69a-ffca-4729-bf72-72ea0cd8a5db).
+[[Mark Russinovich]] said the following in his talk, [Inside Microsoft AI innovation with Mark Russinovich](https://build.microsoft.com/en-US/sessions/984ca69a-ffca-4729-bf72-72ea0cd8a5db):
 
 ### Scale
 

@@ -6,7 +6,7 @@ aliases:
   - ND MI300X v5
   - Standard_ND96isr_MI300X_v5
 ---
-ND MI300X v5 is Microsoft's eight-way [[MI300X]] VM and node. It is built on the same node platform as the [[Azure ND H100 v5|ND H100 v5]] server, but with an 8-way OAM baseboard in place of the HGX board.
+ND MI300X v5 is [[Microsoft]]'s eight-way [[MI300X]] VM and node. It is built on the same node platform as the [[Azure ND H100 v5|ND H100 v5]] server, but with an 8-way OAM baseboard in place of the HGX board.
 
 Each VM has:[^2]
 

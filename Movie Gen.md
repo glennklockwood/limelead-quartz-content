@@ -3,7 +3,7 @@ tags:
   - model
 title: Meta Movie Gen
 ---
-Movie Gen is a family of movie generation models announced by Meta in October 2024 and detailed in [Movie Gen: A Cast of Media Foundation Models](https://ai.meta.com/static-resource/movie-gen-research-paper). There are two variants:
+Movie Gen is a family of movie generation models announced by [[Meta]] in October 2024 and detailed in [Movie Gen: A Cast of Media Foundation Models](https://ai.meta.com/static-resource/movie-gen-research-paper). There are two variants:
 
 **Movie Gen Audio**: a video-to-audio model which was scaled up to 13 billion parameters. It was trained on O(1M) hours of audio.
 

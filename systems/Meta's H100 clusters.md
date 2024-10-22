@@ -3,7 +3,7 @@ tags:
   - system
 title: Meta's H100 clusters
 ---
-Meta has two 24,576-GPU clusters which are their flagship systems.[^1] The Llama-3 paper calls them "Meta's production clusters" but they have no other catchier name.
+[[Meta]] has two 24,576-GPU clusters which are their flagship systems.[^1] The Llama-3 paper calls them "Meta's production clusters" but they have no other catchier name.
 
 - One has a 400G RoCEv2 backend using Arista 7800 switches
 - One has a 400G NDR [[InfiniBand]] backend using NVIDIA Quantum-2 switches

@@ -19,7 +19,7 @@ From [The Intelligence Age](https://ia.samaltman.com):
 A bit lofty, but what do I know?
 
 > [!quote]
-> [[Deep learning worked]], got predictably better with scale, and we dedicated increasing resources to it.[^b29d3456-6b92-4373-aff9-2be74b026720]
+> Deep learning worked, got predictably better with scale, and we dedicated increasing resources to it.[^b29d3456-6b92-4373-aff9-2be74b026720]
 
 This speaks to the observation that [[frontier model]]s will continue to need bigger, faster, and more expensive supercomputers to improve.
 

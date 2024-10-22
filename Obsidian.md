@@ -1,4 +1,4 @@
-[Obsidian](https://obsidian.md/) is the tool I use to maintain [[index|this knowledge base]]. I also use it extensively for my notes at work since joining Microsoft since:
+[Obsidian](https://obsidian.md/) is the tool I use to maintain [[index|this knowledge base]]. I also use it extensively for my notes at work since joining [[Microsoft]] since:
 
 1. It does not try to upload all my notes (and the secrets therein) to some third-party cloud service. I keep my Obsidian vaults in my corporate OneDrive or Sharepoints, allowing me to comply with corporate data management policy.
 2. It supports linking between documents and finding information that I've forgotten very easy. This seems to work best for the way I take and re-read notes.

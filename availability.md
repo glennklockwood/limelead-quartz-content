@@ -12,7 +12,7 @@ Availability is pretty straightforward:
 
 $\text{Availability} = \frac{\text{uptime}}{\text{uptime } + \text{ downtime}}$
 
-SLAs are often expressed as average monthly availability; for example, Azure offers a 99.9% ("three nines" or "3x9") availability for a non-redundant VM on a monthly basis.[^1] If the average month has 730.5 hours, this means that VM will only be down for 0.1% of that, or $730.5 \text{ hours} \times (1 - 0.999) = 0.7305 \text{ hours}$ (43.83 minutes) each month.
+SLAs are often expressed as average monthly availability; for example, [[Microsoft|Azure]] offers a 99.9% ("three nines" or "3x9") availability for a non-redundant VM on a monthly basis.[^1] If the average month has 730.5 hours, this means that VM will only be down for 0.1% of that, or $730.5 \text{ hours} \times (1 - 0.999) = 0.7305 \text{ hours}$ (43.83 minutes) each month.
 
 ## Job uptime, forward progress
 
@@ -38,7 +38,7 @@ $0.90 = \frac{2.5}{2.5 + \text{MTTR}}$
 
 $\text{MTTR} = \frac{5}{18} = 0.278 \text { hr} = 16.7 \text { min}$
 
-Since Meta used only 16,000 of the 24,000 GPUs on [[Meta's H100 clusters|their H100 cluster]], this probably reflects a mean time to _restart from checkpoint_ of ~16.7 minutes.
+Since [[Meta]] used only 16,000 of the 24,000 GPUs on [[Meta's H100 clusters|their H100 cluster]], this probably reflects a mean time to _restart from checkpoint_ of ~16.7 minutes.
 
 [^1]: [Azure Resiliency Infographic_Final (microsoft.com)](https://azure.microsoft.com/files/Features/Reliability/AzureResiliencyInfographic.pdf?v=95f7f9240e31cb9d723ea0cfdea7864bef338788e9324919e9a93635fb8f64c5)
 [^2]: [The Llama-3 Herd of Models (arxiv.org)](https://arxiv.org/abs/2407.21783)
